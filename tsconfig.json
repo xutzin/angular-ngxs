@@ -5,6 +5,12 @@
     "paths": {
       "@shared/error": [
         "dist/shared/error"
+      ],
+      "@main-app/*": [
+        "projects/main-app/src/app/*"
+      ],
+      "@main-env/*": [
+        "projects/main-app/src/environments/*"
       ]
     },
     "baseUrl": "./",
