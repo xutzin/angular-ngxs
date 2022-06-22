@@ -9,6 +9,7 @@ import { MainUserNgXsModel } from './user.ngxs.model';
   defaults: {
     OData: null,
     Session: null,
+    Logs: [],
   }
 })
 @Injectable()
